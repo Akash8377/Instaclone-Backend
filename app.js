@@ -7,7 +7,7 @@ const cors = require("cors");
 const port = 3001;
 mongoose.set("strictQuery", true);
 const DB =
-  "mongodb+srv://sumit:12345@cluster0.oc5tx4o.mongodb.net/instacloneDB?retryWrites=true&w=majority";
+  "mongodb+srv://akashchoudhary8377:<Akash@1234>@cluster0.h69thau.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(DB, (e) => {
   console.log("Connected to DB");
 });
