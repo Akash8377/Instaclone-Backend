@@ -7,7 +7,7 @@ const cors = require("cors");
 const port = 3001;
 mongoose.set("strictQuery", true);
 const DB =
-  "mongodb+srv://akashchoudhary8377:<Akash@1234>@cluster0.h69thau.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://akashchoudhary8377:<akash8377>@instclonewebsite.kaimhep.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(DB, (e) => {
   console.log("Connected to DB");
 });
